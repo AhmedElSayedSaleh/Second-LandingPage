@@ -1,0 +1,442 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.logo {
+    width: 90px;
+    padding: 0px 10px;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-brand {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.nav-bar-link {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 24px 25px;
+}
+
+.nav-bar-link:hover {
+    color: #ec3237 !important;
+}
+
+.bg-dark {
+    background-color: #1a1a1a !important;
+}
+
+.cover {
+    background-image: url(../images/cover.jpg);
+    height: 800px;
+    background-position: center 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 170px 0px;
+}
+
+.rgba-bg {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(236, 51, 55, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cover .jumbotron {
+    background-color: aqua;
+    background-color: transparent;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    padding-left: 15px;
+}
+
+.jumbotron h1 {
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 1.1;
+    text-shadow: 0px 5px 10px #af2424;
+    margin-bottom: 15px;
+}
+
+.jumbotron p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 15px;
+
+}
+
+.jumbotron .btn {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+    color: #fff;
+    margin-top: 15px 0px;
+    padding: 10px 25px;
+    transition: all 0.2s ease-in-out;
+    font-weight: 400;
+}
+
+.jumbotron .btn:hover {
+    background: #fff;
+    color: #ec3237;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    color: #ffffff;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about .container .section-heading {
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-top: 70px;
+}
+
+.about .container h2 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+
+
+.profile-icons {
+    padding-top: 25px;
+    border-top: 1px solid #fafafa;
+}
+
+.icon-list {
+    padding: 0px;
+}
+
+.profile-icons .list-group-item {
+    border-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile-icons .list-group-item a {
+    border: 1px solid #999999;
+    display: inline-block;
+    color: #777777;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.profile-icons .list-group-item a:hover {
+    background-color: #ec3237;
+    color: #fff;
+    border: 1px solid #ec3237;
+}
+
+
+
+
+.skills {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.skills h2 {
+    font-weight: 700;
+}
+
+.skills .progress-wrap {
+    margin-top: 24px;
+}
+
+.progress-title {
+    display: inline-block;
+    color: #777777;
+    margin-bottom: 5px;
+}
+
+.text-muted {
+    float: right;
+}
+
+.progress {
+    height: 12px;
+    line-height: 12px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #ec3237;
+}
+
+
+
+
+.serv-btn {
+    border-radius: 0px;
+    color: #fff !important;
+    background-color: #ec3237;
+    border-color: #ec3237;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    transition: all 0.2s ease-in-out;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.serv-btn:hover {
+    background-color: #c62d32;
+    border-color: #c62d32;
+}
+
+
+
+
+
+
+
+
+
+
+
+.work {
+    padding: 70px 0px;
+}
+
+.work-titles {
+    padding-left: 0px;
+    padding-bottom: 50px;
+}
+
+.work h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.work-wrap {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+}
+
+.work-wrap:hover .work-icon {
+    background-color: #ec3237;
+    color: #ffffff;
+}
+
+.work-wrap:hover .work-title {
+    color: #ec3237;
+}
+
+.work-title {
+    font-weight: 600;
+}
+
+.work-icon {
+    background-color: #eeeeee;
+    color: #777777;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.work-btn {
+    border-radius: 0px;
+    color: #fff !important;
+    background-color: #ec3237;
+    border-color: #ec3237;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    transition: all 0.2s ease-in-out;
+    margin: auto;
+}
+
+.work-btn:hover {
+    background-color: #c62d32;
+    border-color: #c62d32;
+}
+
+
+.work .work-bg {
+    background-position: center 2px;
+    background-attachment: fixed;
+    background-image: url(../images/project-counter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+    margin-top: 70px;
+}
+
+.counter-wrap {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 0px;
+}
+
+.counter-icon {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    color: #ec3237;
+}
+
+.counter {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.counter-wrap h4 {
+    font-weight: 600;
+    color: #ec3237;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+.nav-pills .nav-link{
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid #dddddd;
+    border-radius: 0px;
+    color: #444444;
+    margin: 0px 1px;
+    padding: 10px 20px;
+}
+
+.nav-pills .nav-link:hover{
+    color: #ec3237;
+    border: 2px solid #ec3237;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #ec3237;
+    color: #ffffff !important;
+    border: 2px solid #ec3237;
+}
+
+.portfolio h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.modal-content{
+    background-color: transparent;
+    border: none;
+}
+
+.portfolio_item{
+    position: relative;
+}
+
+.portfolio_item i{
+    color: #ffffff;
+}
+
+.portfolio_search{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+    bottom: 27%;
+    left: 50%;
+    transform: translate3d( -50%, 0%, 0 );
+}
+
+.portfolio_item:hover .portfolio_search{
+    background-color: #ec3237;
+}
+
+.portfolio h4{
+    font-weight: 600;
+    font-size: 18px;
+}
